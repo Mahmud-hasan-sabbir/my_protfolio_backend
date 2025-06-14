@@ -27,3 +27,6 @@ Route::get('/workinginfo', [HomepageController::class, 'workinginfo']);
 Route::get('/educationinfo', [HomepageController::class, 'educationinfo']);
 Route::get('/skill', [HomepageController::class, 'skill']);
 Route::get('/workingproject', [HomepageController::class, 'workingproject']);
+Route::get('/protfolio', [HomepageController::class, 'protfolio']);
+Route::get('/service', [HomepageController::class, 'service']);
+Route::get('/testimonial', [HomepageController::class, 'testimonial']);

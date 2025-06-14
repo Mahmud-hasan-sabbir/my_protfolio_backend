@@ -1308,6 +1308,30 @@ class HomepageController extends Controller
             return response()->json($workingprojectdata);
         }
 
+         public function protfolio()
+        {
+            $Protfolio = Protfolio::all();
+            return response()->json($Protfolio);
+        }
+
+        public function service()
+        {
+            $Service = Service::all();
+            return response()->json($Service);
+        }
+
+        public function testimonial()
+        {
+            $Testimonium = Testimonium::all();
+            return response()->json($Testimonium);
+        }
+
+
+
+
+
+
+
 
 
 
