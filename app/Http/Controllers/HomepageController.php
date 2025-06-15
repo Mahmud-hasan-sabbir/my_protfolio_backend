@@ -1326,6 +1326,12 @@ class HomepageController extends Controller
             return response()->json($Testimonium);
         }
 
+        public function blog()
+        {
+            $Blog = Blog::all();
+            return response()->json($Blog);
+        }
+
 
 
 

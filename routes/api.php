@@ -30,3 +30,4 @@ Route::get('/workingproject', [HomepageController::class, 'workingproject']);
 Route::get('/protfolio', [HomepageController::class, 'protfolio']);
 Route::get('/service', [HomepageController::class, 'service']);
 Route::get('/testimonial', [HomepageController::class, 'testimonial']);
+Route::get('/blog', [HomepageController::class, 'blog']);
